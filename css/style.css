@@ -20,6 +20,7 @@
 .wrapper {
 	min-height: 100%;
 	overflow: hidden;
+	box-shadow: inset 1px 1px 10px 1px rgb(255, 85, 85);
 }
 
 .header {
@@ -62,7 +63,7 @@ h1 {
 	text-align: center;
 	font-size: 55px;
 	margin-bottom: 20px;
-	text-shadow: 6px 0px 5px rgba(0, 238, 255, 0.411), 16px 0px 5px rgba(0, 252, 252, 0.288),
+	text-shadow: 4px 0px 5px rgba(0, 238, 255, 0.411), 14px 0px 5px rgba(0, 252, 252, 0.288),
 		0px 0px 50px rgb(0, 255, 255);
 	line-height: 100px;
 	color: rgb(0, 238, 255);
@@ -71,7 +72,7 @@ h1 {
 h3 {
 	text-transform: uppercase;
 	font-family: "cyberpunkrus", "Jost-regular";
-	font-size: 10px;
+	font-size: 30px;
 	text-align: center;
 	margin-bottom: 20px;
 	text-shadow: 6px 0px 5px rgba(21, 255, 0, 0.411), 16px 0px 5px rgba(0, 255, 0, 0.288), 0px 0px 50px rgb(0, 255, 21);
@@ -85,15 +86,9 @@ h2 {
 	text-align: center;
 	font-size: 40px;
 	margin-bottom: 20px;
-	text-shadow: 1px 3px 2px rgb(13, 242, 250), 1px 4px 13px rgb(0, 255, 255);
+	text-shadow: 1px 3px 1px rgb(13, 242, 250), 1px 4px 13px rgb(0, 255, 255);
 	line-height: 100px;
 	color: yellow;
-}
-
-h3 {
-	font-size: 30px;
-	text-align: center;
-	margin-bottom: 20px;
 }
 
 p {
